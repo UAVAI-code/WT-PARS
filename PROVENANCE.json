@@ -1,0 +1,68 @@
+{
+  "src/weak_tangent_search.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/weak_tangent_search.py",
+    "sha256": "7589ca3d877386c58f44968b9f9e22e79cb9f6a596bf9a54c9e9a7490edf7def",
+    "operation": "verbatim copy"
+  },
+  "src/moead.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/moead.py",
+    "sha256": "b4edb4faa2889e6ab45d331a7b35f98917032407273da1b0b594efb3e6bb1d8c",
+    "operation": "verbatim copy"
+  },
+  "src/query_accounting.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/query_accounting.py",
+    "sha256": "61269bfbe1a81ba69e9fbca2b35fcc3d9ef624a9a7e2f30ecb59b4bcae37f6fd",
+    "operation": "verbatim copy"
+  },
+  "src/optimizer_registry.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/optimizer_registry.py",
+    "sha256": "316ccceb042355b5cbca193d63fa1c4da87298066dfb82b6d6b2020b4ab492a3",
+    "operation": "verbatim copy"
+  },
+  "src/victim.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/victim.py",
+    "sha256": "8b488fe4c37b6b3f2af232467ee7d8441634f7145d720e625a3e2a1aafebf8e4",
+    "operation": "verbatim copy"
+  },
+  "src/cross_unmixer.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/cross_unmixer.py",
+    "source_sha256": "ab2f5c95189a4fe65fcf267edaa12ef3bc874a53e1eabd0989f380adf700a8fa",
+    "operation": "verbatim function/class extraction; minimal imports",
+    "symbols": [
+      "QueryVictim",
+      "spectral_angle_matrix",
+      "match_to_anchors",
+      "NMFFCLSVictim",
+      "build_query_only_proxy_pool"
+    ]
+  },
+  "src/response_guided_attack.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/sparse_unmixing_attack/src/response_guided_attack.py",
+    "source_sha256": "af9ffeca56ce85e4fd748595fc5a23337010db617b9330c7794257eadb99188e",
+    "operation": "verbatim function/class extraction; minimal imports",
+    "symbols": [
+      "_endmember_set_distance",
+      "_canonical_clean_outputs"
+    ]
+  },
+  "baselines/hsi_trust_evidence/__init__.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/unmixing_baselines/VCA-FCLS-NNLS/hsi_trust_evidence/__init__.py",
+    "sha256": "57e0fd261134c312105ee5942a35132cc546d009150455f54e315f6fffcce85a",
+    "operation": "verbatim copy"
+  },
+  "baselines/hsi_trust_evidence/data_io.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/unmixing_baselines/VCA-FCLS-NNLS/hsi_trust_evidence/data_io.py",
+    "sha256": "e7f026e7cded9764a02a897277ab51c883d3b906d13d24af68d23e19d1de101f",
+    "operation": "verbatim copy"
+  },
+  "baselines/hsi_trust_evidence/unmixing.py": {
+    "source": "KBS_Revision_20260913/03_code_snapshot/weak_transfer_workflow_v4_frozen/unmixing_baselines/VCA-FCLS-NNLS/hsi_trust_evidence/unmixing.py",
+    "sha256": "e4dbf6d35958191a7a9d0e00174d555ecda28393faf25eb2a9275b4f90052896",
+    "operation": "verbatim copy"
+  },
+  "licenses/mopt-MIT.txt": {
+    "source": "HSI_Unmixing_Attack_Transfer_20260807/multi-objective-optimization-main/LICENSE",
+    "sha256": "89ac02efdcdcd63fccdb1cb478b37c2434099737be03df4e1810401480dc8974",
+    "operation": "verbatim copy"
+  }
+}
